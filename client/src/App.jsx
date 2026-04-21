@@ -158,7 +158,7 @@ function Hero() {
     <section className="hero" id="home">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', flexWrap: 'wrap', gap: '40px' }}>
         <div style={{ animation: 'fadeUp .8s ease both', flex: 1, minWidth: '280px' }}>
-          <div className="hero-grid-label">// portfolio — 2025</div>
+          <div className="hero-grid-label">MS</div>
           <div className="hero-tag">Full-Stack MERN Developer</div>
           <h1>
             Muhammad
