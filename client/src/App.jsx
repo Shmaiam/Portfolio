@@ -116,26 +116,49 @@ function Cursor() {
   )
 }
 
+// Replace your Nav() function in App.jsx with this:
+
 function Nav() {
   const [scrolled, setScrolled] = useState(false)
+  const [open, setOpen] = useState(false)
+
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 60)
     window.addEventListener('scroll', fn)
     return () => window.removeEventListener('scroll', fn)
   }, [])
+
+  const closeMenu = () => setOpen(false)
+
   return (
-    <nav className="nav" style={{ borderBottomColor: scrolled ? 'var(--border)' : 'transparent' }}>
-      <div className="nav-logo">MS.dev</div>
-      <ul className="nav-links">
+    <>
+      <nav className="nav" style={{ borderBottomColor: scrolled ? 'var(--border)' : 'transparent' }}>
+        <div className="nav-logo">MS.dev</div>
+        <ul className="nav-links">
+          {['skills','experience','projects','about','contact'].map(s => (
+            <li key={s}><a href={`#${s}`}>{s}</a></li>
+          ))}
+        </ul>
+        <div className="nav-status">
+          <span className="pulse" />
+          Available for work
+        </div>
+        <button className={`nav-hamburger ${open ? 'open' : ''}`} onClick={() => setOpen(!open)}>
+          <span /><span /><span />
+        </button>
+      </nav>
+
+      {/* Mobile Drawer */}
+      <div className={`nav-drawer ${open ? 'open' : ''}`}>
         {['skills','experience','projects','about','contact'].map(s => (
-          <li key={s}><a href={`#${s}`}>{s}</a></li>
+          <a key={s} href={`#${s}`} onClick={closeMenu}>{s}</a>
         ))}
-      </ul>
-      <div className="nav-status">
-        <span className="pulse" />
-        Available for work
+        <div className="nav-drawer-status">
+          <span className="pulse" />
+          Available for work
+        </div>
       </div>
-    </nav>
+    </>
   )
 }
 
