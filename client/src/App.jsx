@@ -377,15 +377,15 @@ function Contact() {
           <h3>Let's build something real together.</h3>
           <p>Got a project in mind? Need a MERN dev who ships clean, scalable code on time? Hit me up — I'm open to freelance gigs and full-time roles.</p>
           <div className="contact-links">
-            <a href="mailto:shmaiam@email.com" className="contact-link">
+            <a href="mailto:shmaiamking@gmail.com" className="contact-link">
               <span className="contact-link-icon">@</span>
-              shmaiam@email.com
+              shmaiamking@gmail.com
             </a>
-            <a href="https://github.com/shmaiam" className="contact-link" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Shmaiam" className="contact-link" target="_blank" rel="noreferrer">
               <span className="contact-link-icon">⌥</span>
               github.com/shmaiam
             </a>
-            <a href="https://linkedin.com/in/shmaiam" className="contact-link" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/muhammad-shmaiam-b057b0283/" className="contact-link" target="_blank" rel="noreferrer">
               <span className="contact-link-icon">in</span>
               linkedin.com/in/shmaiam
             </a>
@@ -421,8 +421,8 @@ function Footer() {
     <footer className="footer">
       <p>© 2025 Muhammad Shmaiam // All Rights Reserved</p>
       <div className="footer-links">
-        <a href="https://github.com/shmaiam" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/shmaiam" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/Shmaiam" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-shmaiam-b057b0283/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="#contact">Contact</a>
       </div>
     </footer>
