@@ -25,7 +25,7 @@ const SKILLS = [
 
 const EXPERIENCES = [
   {
-    date: '2024 — Present',
+    date: '2022 — Present',
     role: 'Full-Stack MERN Developer',
     company: 'Freelance / Remote',
     desc: 'Architecting and shipping full-stack web applications end-to-end. REST APIs with Node & Express, MongoDB schemas, React UIs, JWT auth, Stripe payments, and cloud deployments on Vercel + Render.',
@@ -39,6 +39,7 @@ const EXPERIENCES = [
     tags: ['React', 'Tailwind', 'REST APIs', 'Git', 'Figma'],
   },
   {
+    
     date: '2022 — 2023',
     role: 'Junior Web Developer',
     company: 'Self-taught / Personal Projects',
