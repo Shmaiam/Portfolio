@@ -34,7 +34,7 @@ const EXPERIENCES = [
   {
     date: '2023 — 2024',
     role: 'Frontend Developer',
-    company: 'Tech Agency — Internship',
+    company: 'DevConst — Internship',
     desc: 'Built responsive React interfaces from Figma designs. Integrated third-party APIs, collaborated on REST API contracts with backend team, and shipped pixel-perfect UIs in agile sprints.',
     tags: ['React', 'Tailwind', 'REST APIs', 'Git', 'Figma'],
   },
@@ -42,7 +42,7 @@ const EXPERIENCES = [
     date: '2022 — 2023',
     role: 'Junior Web Developer',
     company: 'Self-taught / Personal Projects',
-    desc: 'Learned the full web stack from scratch. Built a task manager, a blog CMS API, and an e-commerce prototype. Mastered MongoDB, Express routing, and JWT auth through real project work.',
+    desc: 'Learned the full web stack from scratch. Built a task manager, a blog CMS API, and an e-commerce prototype. Mastered MongoDB, Express routing through real project work.',
     tags: ['JavaScript', 'Node.js', 'MongoDB', 'HTML/CSS'],
   },
 ]
