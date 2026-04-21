@@ -21,6 +21,9 @@ const SKILLS = [
   { name: 'REST API',   src: 'https://cdn.simpleicons.org/postman/FF6C37' },
   { name: 'Firebase',   src: 'https://cdn.simpleicons.org/firebase/FFCA28' },
   { name: 'Figma',      src: 'https://cdn.simpleicons.org/figma/F24E1E' },
+  { name: 'Python',     src: 'https://cdn.simpleicons.org/python/3776AB' },
+  { name: 'Cpp',     src: 'https://cdn.simpleicons.org/cplusplus/00599C' },
+  { name: 'Mysql',     src: 'https://cdn.simpleicons.org/mysql/4479A1' },
 ]
 
 const EXPERIENCES = [
