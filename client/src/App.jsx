@@ -14,17 +14,12 @@ const SKILLS = [
   { name: 'Express.js', src: 'https://cdn.simpleicons.org/express/ffffff' },
   { name: 'React',      src: 'https://cdn.simpleicons.org/react/61DAFB' },
   { name: 'Node.js',    src: 'https://cdn.simpleicons.org/nodedotjs/339933' },
-  { name: 'TypeScript', src: 'https://cdn.simpleicons.org/typescript/3178C6' },
   { name: 'JavaScript', src: 'https://cdn.simpleicons.org/javascript/F7DF1E' },
   { name: 'Tailwind',   src: 'https://cdn.simpleicons.org/tailwindcss/06B6D4' },
-  { name: 'Redux',      src: 'https://cdn.simpleicons.org/redux/764ABC' },
   { name: 'Next.js',    src: 'https://cdn.simpleicons.org/nextdotjs/ffffff' },
   { name: 'Git',        src: 'https://cdn.simpleicons.org/git/F05032' },
-  { name: 'Docker',     src: 'https://cdn.simpleicons.org/docker/2496ED' },
   { name: 'REST API',   src: 'https://cdn.simpleicons.org/postman/FF6C37' },
-  { name: 'JWT',        src: 'https://cdn.simpleicons.org/jsonwebtokens/ffffff' },
   { name: 'Firebase',   src: 'https://cdn.simpleicons.org/firebase/FFCA28' },
-  { name: 'Vercel',     src: 'https://cdn.simpleicons.org/vercel/ffffff' },
   { name: 'Figma',      src: 'https://cdn.simpleicons.org/figma/F24E1E' },
 ]
 
@@ -91,7 +86,7 @@ const PROJECTS = [
   },
 ]
 
-const TICKER_ITEMS = ['MongoDB', 'Express.js', 'React', 'Node.js', 'TypeScript', 'REST APIs', 'Socket.io', 'JWT Auth', 'Docker', 'Tailwind CSS', 'Full-Stack Dev']
+const TICKER_ITEMS = ['MongoDB', 'Express.js', 'React', 'Node.js', 'TypeScript', 'REST APIs' , ' SQL ' , ' Python ' , 'Tailwind CSS', 'Full-Stack Dev']
 
 // ─── COMPONENTS ──────────────────────────────────────────────────────────────
 
