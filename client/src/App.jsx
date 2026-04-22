@@ -187,7 +187,7 @@ function Hero() {
           </div>
           {/* Stats row */}
           <div style={{ display: 'flex', gap: '1px', marginTop: '1px', background: 'var(--border)' }}>
-            {[['5+', 'Years'], ['10+', 'Projects'], ['3+', 'Clients']].map(([num, label]) => (
+            {[['3+', 'Years'], ['10+', 'Projects'], ['3+', 'Clients']].map(([num, label]) => (
               <div key={label} style={{ flex: 1, background: 'var(--card)', padding: '12px 8px', textAlign: 'center' }}>
                 <div style={{ fontFamily: 'var(--head)', fontSize: '18px', fontWeight: 900, color: 'var(--green)' }}>{num}</div>
                 <div style={{ fontSize: '9px', letterSpacing: '1px', color: 'var(--muted)', textTransform: 'uppercase' }}>{label}</div>
