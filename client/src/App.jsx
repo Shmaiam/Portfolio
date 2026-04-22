@@ -20,7 +20,6 @@ const SKILLS = [
   { name: 'CSS',        src: 'https://cdn.simpleicons.org/css/663399' },
   { name: 'tailwindcss',src: 'https://cdn.simpleicons.org/tailwindcss/06B6D4' },
   { name: 'Vercel',     src: 'https://cdn.simpleicons.org/vercel/000000' },
-  { name: 'Html',       src: 'https://cdn.simpleicons.org/html5/E34F26' },
   { name: 'Unity',      src: 'https://cdn.simpleicons.org/unity/FFFFFF' },
 ]
 
